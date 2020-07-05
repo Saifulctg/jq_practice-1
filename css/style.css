@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+body{
+    font-family: sans-serif;
+}
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+h2{
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #8d8741;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+/* ==========common css end========== */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #84999c;
+    padding: 0 100px;
+}
+.logo{
+    width: 30%;
+    padding: 24px 0;
+}
+.menu{
+    width: 70%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-size: 24px;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+.menu_fixed{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 9999;
+ }
+
+
+
+/* ==========menu css end========== */
+
+.sh .row{
+    justify-content: space-around;
+}
+#Show_Hide button,#Fade button,#Slide button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background: linear-gradient(to left,#65c3f1,#4568cc,#a3cc76);
+    border: none;
+    margin-top: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.color{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to top,#8d8741,#659dbd,#fbeec1);
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#add_remove{
+    margin: auto;
+    text-align: center;
+}
+.col,.blue,.green,.black,.yellow{
+    width: 500px;
+    height: 300px;
+    background-color: #63a002;
+    margin: 20px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.black{
+    background-color: black;
+}
+.yellow{
+    background-color: yellow;
+}
+
+
+#add_remove button{
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background: linear-gradient(to left,#232d31,#45588c,#6d9a3b);
+    border: none;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
